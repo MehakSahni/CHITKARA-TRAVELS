@@ -1,0 +1,239 @@
+/*Header*/
+header{
+    background-color: red;
+    background-image: linear-gradient( to right,  white 20%, red 39% ,red 61%,white 81%);
+    height: 125px;
+}
+ 
+#image{
+    float: right;
+    position: absolute;
+    width: 18.5%;
+    vertical-align: top;
+}
+h1{
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: top;
+    width: 61%;
+    
+}
+
+h2{
+    background-color: coral;
+}
+
+@media screen and (max-width:710px) {
+    header{
+        background-image: none;
+    }
+    header  img{
+        width: 0px;
+        height: 0px;
+    }
+    h1{
+        width: 100%;
+        margin-top: 16px;
+    }
+    span{
+        width: 0px;
+    }
+}
+@media screen and (max-width:450px) {
+    header a img{
+        width: 0px;
+        height: 0px;
+    }
+    h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    span{
+        width: 0px;
+    }
+    header{
+        height: 100px;
+    }
+}
+
+/*Navigation Bar*/
+#horizontal{
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+#horizontal a{
+    color: wheat;
+    font-size: large;
+    margin: 0px 0px;
+}
+
+#vertical{
+    width: 0px;
+    height: 100%;
+    background-color: #111;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+#vertical a{
+    color: darkgray;
+    display: block;
+    font-size: 25px;
+    padding: 8px 8px 8px 32px;
+    transition: 0.3s;
+}
+
+#vertical a:hover{
+    color: white;
+}
+
+/*About*/
+p{
+    font-family: -webkit-pictograph;
+    font-size: 20px
+}
+
+
+
+
+.pictures{
+    width: 200px;
+    height: 240px;
+    margin: 10px;
+    font-size: x-large;
+    padding: 100px 0px ;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    
+}
+
+main div:hover{
+    box-shadow: 0px 0px 6px 10px thistle;
+    color: red;
+    transition: color 0.5s; font-size: 0.5s;
+    font-size: xx-large;
+    width: 204px;
+    height: 244px;
+}
+
+.Places{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+#chandigarh{
+    background-image: url(chandigarh_lake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#Patiala{
+    background-image: url(patialaf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#mohali{
+    background-image: url(mohali.jpg);
+    background-size: cover;
+    
+}
+#panchkula{
+    background-image: url(panchkula.jpg);
+    background-size: cover;
+    
+}
+#ambala{
+    background-image: url(ambala.jpg);
+    background-size: cover;
+    
+}
+#khanna{
+    background-image: url(khanna.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#zirakpur{
+    background-image: url(zirakpur.jpg);
+    background-size: cover;
+    
+}
+#rajpura{
+    background-image: url(beauty.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#derabassi{
+    background-image: url(beauty1.jpg);
+    background-size: cover;
+}
+#sirhind{
+    background-image: url(rose_garden.jpg);
+    background-size: cover;
+}
+#dz{
+    background-image: url(beauty2.jpg);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*Contact*/
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: coral;
+}
+#contact{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+.icons{
+    display: inline-block;
+
+}
+#chitkarau{
+    text-align:left;
+    margin-top:-100px;
+    padding-left: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+ul{
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 60px;
+ }
+ #uni{
+    text-align: right;
+    margin-top:-250px;
+    padding-right:50px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+div p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+
+}
+#copyright{
+    text-align:center;
+    margin-top: 170px;
+    font-size: 18px;
+}

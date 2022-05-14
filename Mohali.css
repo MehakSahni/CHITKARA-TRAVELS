@@ -1,0 +1,147 @@
+/*Header*/
+header{
+    background-color: red;
+    background-image: linear-gradient( to right,  white 20%, red 39% ,red 61%,white 81%);
+    height: 125px;
+}
+ 
+#image{
+    float: right;
+    position: absolute;
+    width: 18.5%;
+    vertical-align: top;
+}
+h1{
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: top;
+    width: 61%;
+    
+}
+
+
+
+@media screen and (max-width:710px) {
+    header{
+        background-image: none;
+    }
+    header  img{
+        width: 0px;
+        height: 0px;
+    }
+    h1{
+        width: 100%;
+        margin-top: 16px;
+    }
+    span{
+        width: 0px;
+    }
+}
+@media screen and (max-width:450px) {
+    header a img{
+        width: 0px;
+        height: 0px;
+    }
+    h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    span{
+        width: 0px;
+    }
+    header{
+        height: 100px;
+    }
+}
+
+/*Navigation Bar*/
+#horizontal{
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+#horizontal a{
+    color: wheat;
+    font-size: large;
+    margin: 0px 0px;
+}
+
+#vertical{
+    width: 0px;
+    height: 100%;
+    background-color: #111;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+#vertical a{
+    color: darkgray;
+    display: block;
+    font-size: 25px;
+    padding: 8px 8px 8px 32px;
+    transition: 0.3s;
+}
+
+#vertical a:hover{
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(39 118 250);
+    margin-top: 1px;
+}
+
+body{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*main*/
+
+main{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10pt;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.route{
+    width: 200px;
+    height: 250px;
+    margin: 10pt;
+    padding:  100px  20px;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url(backgroundnature.jpg);
+    background-position: 200px 250px;
+    font-size: large;
+    font-family: fantasy;
+    
+}
+
+
+main div:hover{
+    box-shadow: 0px 0px 6px 10px rgb(99, 96, 96);
+    transition: color 0.5s; font-size: 0.5s;
+    font-size: x-large;
+    width: 204px;
+    height: 244px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
